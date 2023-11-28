@@ -19,9 +19,9 @@ function Create(){
                         console.log(value)
                         navigate("/");
                     }}>
-                    <Form style={{margin: 'auto'}}>
+                    <Form >
                         <div>
-                            <p>Tên</p>
+                            <label for={'title'}>Tên</label>
                             <Field style={{width: '200px'}} type={"text"} placeholder="title" name={'title'} className={"form-control "} required/>
                             <p>Mô Tả</p>
                             <Field style={{width: '200px'}} type={"text"} placeholder="content" name={'description'} className={"form-control"} required/>
